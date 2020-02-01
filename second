@@ -1,0 +1,226 @@
+<DOCTYPE html>
+<html>
+
+<style>
+
+body {
+background-color: darkgrey;
+background-image: url(image/bluetile.jpg);
+}
+	  
+h1{
+	color: yellow;
+    background-color: salmon;
+   	text-align: center;
+    padding-left: 28px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+	padding-top: 15px;
+	font-family: Arial, sans-serif;
+font-size: 200%;
+font-style: italic;
+letter-spacing: 4px; 
+word-spacing: 20px; 
+text-shadow: 2px 10px 10px violet;
+text-declaration: underline;
+text-align: center;
+text-indent: 25px;
+line-height: 1.5;
+border: 2px solid lightblue;
+background-image: url(milkyway.jpg);
+background-position: center;
+
+}
+
+
+h2 a {
+text-decoration: none;
+color: yellowgreen;
+}
+
+h2 {
+color: limegreen;
+text-align: center;
+padding-top: 40px;
+}
+
+.sidebar {
+color: gray;
+  width: 34%;
+  float: left;
+  padding: 20px 40px;
+  margin-left: 270px;
+  margin-top: 10px;
+  margin-bottom: 10px;	
+  box-sizing: border-box;
+  font-size: 85%;
+  border: 2px solid yellowgreen;
+  background-color: pink;
+  background-image: linear-gradient(to bottom right, pink, yellow);
+border-radius: 100%;
+transition: all 1s;
+}
+
+.sidebar:hover {
+transform: rotate(360deg);
+}
+
+.border {
+    	background-color: skyblue;
+      width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    	padding-left: 40px;
+    	padding-right: 40px;
+      padding-bottom: 15px;
+	  box-sizing: border-box;	
+		border: 3px solid white;  
+}
+
+/* Table Styles */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.col-item-name {
+  width: 60%;
+}
+
+.col-quantity,
+.col-price {
+  width: 20%;
+}
+
+table th {
+  text-align: center;
+  background-color: #869960;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+table th,
+table td {
+  border: 1px solid #869960;
+  padding: 10px;
+  vertical-align: top;
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: #e5e9dc;
+}
+
+table.grocery-list tr :nth-child(2),
+table.grocery-list tr :nth-child(3) {
+  text-align: center;
+ 
+}
+
+table tbody tr:hover td {
+  background-color: yellowgreen;
+}
+
+
+.milkyway {
+padding-top: 20px;
+text-align: center;
+}
+
+.bannermilkyway {
+position: relative;
+}
+
+.banner {
+  position: absolute;
+  bottom: -30px;
+  color: darkgrey;
+  background-color: rgba(0, 0, 0, .100);
+  padding: 15px 25px 10px 25px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  }
+  
+footer {
+text-align: center;
+color: gray;
+padding-bottom: 20px;
+padding-top: 20px;
+
+
+</style>
+
+
+
+<h1>A more in-depth view of our planets</h1>
+
+
+<div class="border">
+    <aside class="sidebar">
+      <p><strong>
+	  The Milky Way is the galaxy that contains our Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars that cannot be individually distinguished by the naked eye.</p></strong>
+    </aside>
+
+      <table class="grocery-list">
+        <thead>
+          <tr>
+            <th class="col-item-name">Planet name</th>
+            <th class="col-quantity">Type of planet</th>
+            <th class="col-price">Number of moons</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mercury</td>
+            <td>No atmosphere</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Venus</td>
+            <td>Sulfuric</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Earth</td>
+            <td>Has oxygen</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Mars</td>
+            <td>Red planet</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Jupiter</td>
+            <td>Gas</td>
+            <td>66</td>
+          </tr>
+          <tr>
+            <td>Saturn</td>
+            <td>Gas</td>
+            <td>43</td>
+          </tr>
+		  <td>Uranus</td>
+            <td>Icy</td>
+            <td>30</td>
+          </tr>
+		  <td>Neptune</td>
+            <td>Icy</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+
+<div class="bannermilkyway">
+<div class="banner">
+<p>This is the Milky Way galaxy</p>
+</div>
+
+<div class="milkyway">
+<img src="milkyway.jpg" alt="the galaxy that we're living in">
+</div>
+</div>
+
+<footer><p>Click <a href="thirdpage.html"> here</a> to go to the third page</p></footer>
+
+</html>
