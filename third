@@ -1,0 +1,172 @@
+<style>
+
+
+body {
+background-color: lightblue;
+background: url(image/tile.png) left bottom repeat-x, lightblue url(image/tile.png) left top repeat-x;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+.third {
+	
+      width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    	padding-left: 40px;
+    	padding-right: 40px;
+      padding-bottom: 15px;
+    	box-sizing: border-box
+		background-color: pink;
+		background-image: linear-gradient(to bottom, violet, orange);
+}
+
+h1 {
+length: 885px;
+text-decoration: none;
+color: yellow;
+width: 970px;
+text-align: center;
+padding-top: 20px;
+padding-left: -90px;
+letter-spacing: 4px; 
+word-spacing: 20px; 
+text-shadow: 2px 10px 10px orange;
+	font-family: Arial, sans-serif;
+}
+
+.color {
+color: white;
+}
+
+.categories {
+color: white;
+margin: 0 auto 1.25rem auto;
+padding: 0.25rem;
+}
+
+.secondcategory {
+margin: none;
+}
+
+.picture {
+text-align: center;
+transition: scale(1.5;)
+overflow: hidden;
+}
+
+.picture:hover {
+transform: scale(1.5);
+}
+
+.audio {
+text-align: center;
+}
+
+input[type="submit"] {
+  width: 20%;
+  display: block;
+  box-sizing: border-box;
+  background-color: salmon;
+  color: white;
+  padding: 10px;
+  border: 1px solid yellow;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 10px;
+  margin-top: 3px;
+  margin-left: 40%;
+}
+
+
+p a {
+text-decoration: none;
+color: red;
+}
+
+.moon {
+color: white;
+background-color: gray;
+text-align: center;
+margin-bottom: 30px;
+padding: 100px;
+margin-top: 30px;
+background-image: url(https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 5px 50px;
+}
+</style>
+
+
+
+<html>
+
+<body>
+
+<div class="third">
+
+<h1>Overview and Summary</h1>
+
+<div class="picture">
+<img src="image/linedupplanets.jpg" alt="a picture of lined up planets">
+<div class="moon">
+<p>A picture of a full Moon</p>
+</div>
+
+
+<div class="color">
+<label for="favoriteColor">What is your favorite page?</label>
+<select id="favoriteColor" name="favoriteColor">
+  <option value="colorRed">First Page</option>
+  <option value="colorOrange">Second Page</option>
+  <option value="colorYellow">Third Page</option>
+</select>
+</div>
+
+<div class="categories">
+<fieldset>
+  <legend>What galaxy do you like (choose one)</legend>
+  <input type="radio" id="breakfast1" name="favoriteMeal1" value="meal1"><label for="breakfast1">Milky Way</label>
+  <input type="radio" id="brunch1" name="favoriteMeal1" value="meal2"><label for="brunch1">Andromeda</label>
+  <input type="radio" id="lunch1" name="favoriteMeal1" value="meal3"><label for="lunch1">Sombrero</label>
+</fieldset>
+
+<div class="secondcategory">
+<fieldset>
+  <legend>Which are your favorite planets? (check all that apply)</legend>
+  <input type="checkbox" id="breakfast2" name="favoriteMeal2" value="meal1"><label for="breakfast2">Mercury</label>
+  <input type="checkbox" id="brunch2" name="favoriteMeal2" value="meal2"><label for="brunch2">Venus</label>
+  <input type="checkbox" id="lunch2" name="favoriteMeal2" value="meal3"><label for="lunch2">Earth</label>
+  <input type="checkbox" id="breakfast2" name="favoriteMeal2" value="meal1"><label for="breakfast2">Mars</label>
+  <input type="checkbox" id="brunch2" name="favoriteMeal2" value="meal2"><label for="brunch2">Jupiter</label>
+  <input type="checkbox" id="lunch2" name="favoriteMeal2" value="meal3"><label for="lunch2">Saturn</label>
+<input type="checkbox" id="breakfast2" name="favoriteMeal2" value="meal1"><label for="breakfast2">Uranus</label>
+  <input type="checkbox" id="brunch2" name="favoriteMeal2" value="meal2"><label for="brunch2">Neptune</label>
+</fieldset>
+</div>
+
+
+<input type="submit" value="Submit your answers here!">
+
+
+<footer>
+<div class="home">
+      <p> <strong> Click <a href="fourthpage.html"> here</a> to go to the next page</strong>
+      </p>
+    </div>
+	  </footer>
+</div>
+
+
+
+
+<audio controls>
+	<source src="kavinsky.mp3" type="audio/mpeg">
+	<source src="kavinsky.ogg" type="audio/ogg">
+	<a href="kavinsky.mp3"> Please click link </a>
+</audio>
+</div>
+</body>
+</html>
